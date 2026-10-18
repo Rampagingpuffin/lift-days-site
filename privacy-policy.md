@@ -1,6 +1,6 @@
 # Lift Days privacy policy
 
-Last updated 13 October 2026.
+Last updated 17 October 2026.
 
 Lift Days keeps your ski days on your phone. There are no accounts, no ads, no analytics and no tracking. The developer
 runs no server that receives your data, and nothing you enter is sold or shared.
@@ -11,20 +11,32 @@ runs no server that receives your data, and nothing you enter is sold or shared.
 - Your home town and its map position, if you set one. It's used for distances to resorts.
 - The days you log: date, resort, pass, how the day counted and your notes.
 - Ski days you import from Slopes, GPX or KMZ files: the GPS track, its stats and the runs it matched.
+- Ski days you record in the app: the GPS track (time, position and height every few seconds while recording), its
+  stats and the runs and lifts it matched.
 - Stored forecasts, resort logos, and the resorts you told check-ins to skip.
 
 All of this is deleted when you uninstall the app or clear its storage.
 
 ## Location
 
-Location is only used for Day check-ins, which are off until you turn them on in Settings.
+Location is used for two things, each off until you choose it: Day check-ins and recording a day.
+
+**Day check-ins** are off until you turn them on in Settings.
 
 - When the app is open, it asks the phone where it is, to see whether you're at a resort on your passes.
 - If you also allow location all the time, Android watches the area around nearby resorts on your passes. After about
   90 minutes at one, the app shows a notification asking whether to log the day. Nothing is logged unless you tap Log it.
 
-The app doesn't store your location and doesn't send it anywhere. Your phone works out its position using Google Play
-services, under Google's own privacy policy. You can turn check-ins off in Settings, or remove the permission in
+Check-ins don't store your location.
+
+**Recording a day** starts only when you tap Start recording or Record a day. From then until it stops, the app notes
+the phone's position every 2 seconds while you're moving and every 15 seconds while you're standing still, and shows a
+notification the whole time with Pause and Stop. It stops when you tap Stop, or by itself once you've been well away from
+the resort for 15 minutes. The track is kept on your phone. If you log the day, it's saved with the day; if you discard
+it, it's deleted.
+
+The app never sends your location anywhere. Your phone works out its position using Google Play services, under
+Google's own privacy policy. You can turn check-ins off in Settings, stop a recording, or remove the permission in
 Android's settings, at any time.
 
 ## What the app sends over the internet
@@ -54,7 +66,7 @@ privacy policies.
 ## Imported files
 
 Files you share to Lift Days or pick in Settings are read on your phone. Their tracks are kept on your phone and are
-not uploaded.
+not uploaded. The same goes for the days you record.
 
 ## Children
 
