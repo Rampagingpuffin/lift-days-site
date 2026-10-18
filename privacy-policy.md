@@ -1,8 +1,8 @@
-# Lift Days privacy policy
+# Corduroy privacy policy
 
-Last updated 17 October 2026.
+Last updated 18 October 2026.
 
-Lift Days keeps your ski days on your phone. There are no accounts, no ads, no analytics and no tracking. The developer
+Corduroy keeps your ski days on your phone. There are no accounts, no ads, no analytics and no tracking. The developer
 runs no server that receives your data, and nothing you enter is sold or shared.
 
 ## What stays on your phone
@@ -65,12 +65,12 @@ privacy policies.
 
 ## Imported files
 
-Files you share to Lift Days or pick in Settings are read on your phone. Their tracks are kept on your phone and are
+Files you share to Corduroy or pick in Settings are read on your phone. Their tracks are kept on your phone and are
 not uploaded. The same goes for the days you record.
 
 ## Children
 
-Lift Days isn't directed at children under 13 and doesn't knowingly collect anything from them.
+Corduroy isn't directed at children under 13 and doesn't knowingly collect anything from them.
 
 ## Changes
 
