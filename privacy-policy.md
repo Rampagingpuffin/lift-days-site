@@ -1,19 +1,20 @@
 # Corduroy privacy policy
 
-Last updated 18 October 2026.
+Last updated 23 October 2026.
 
 Corduroy keeps your ski days on your phone. There are no accounts, no ads, no analytics and no tracking. The developer
 runs no server that receives your data, and nothing you enter is sold or shared.
 
 ## What stays on your phone
 
-- The passes you hold, your Ski Free voucher count and your units.
+- The passes you hold, what you paid for them and a walk-up ticket price if you enter them, your Ski Free voucher
+  count and your units.
 - Your home town and its map position, if you set one. It's used for distances to resorts.
 - The days you log: date, resort, pass, how the day counted and your notes.
 - Ski days you import from Slopes, GPX or KMZ files: the GPS track, its stats and the runs it matched.
 - Ski days you record in the app: the GPS track (time, position and height every few seconds while recording), its
   stats and the runs and lifts it matched.
-- Stored forecasts, resort logos, and the resorts you told check-ins to skip.
+- Stored forecasts, and the resorts you told check-ins to skip.
 
 All of this is deleted when you uninstall the app or clear its storage.
 
@@ -41,18 +42,19 @@ Android's settings, at any time.
 
 ## What the app sends over the internet
 
-The app downloads forecasts, alerts and logos. Each request goes straight to the service named below and carries only
+The app downloads forecasts and alerts. Each request goes straight to the service named below and carries only
 what's listed. As with any internet request, the service also sees your IP address.
 
 - **Open-Meteo** (api.open-meteo.com): the map position and height of resorts on your passes, to get their forecasts.
   The list of resorts can show which passes you hold. Your own location is never sent.
 - **US National Weather Service** (api.weather.gov): the map position of a US resort when you open its page, to check
   for storm alerts.
-- **Google** (www.google.com): a resort's website address, to fetch its logo.
+- **Google** (www.google.com), in test builds only: a resort's website address, to fetch its logo. The version on
+  Google Play shows the resort's initials instead and never makes this request.
 - **Your phone's address lookup**: the town or ZIP code you type for your home location. Android's built-in geocoder
   sends it to Google to find it on the map.
-- **Resort data updates**: when the app is set up to fetch updated resort data, it downloads one file at most once a
-  day. Nothing about you is sent with it.
+- **GitHub** (raw.githubusercontent.com): the list of resorts and pass rules, at most once a day, so changes reach
+  you without an app update. Nothing about you is sent with it.
 
 Buttons such as Website, Snow report and Directions open your browser or maps app. Those apps and sites have their own
 privacy policies.
