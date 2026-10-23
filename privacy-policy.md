@@ -46,7 +46,8 @@ The app downloads forecasts and alerts. Each request goes straight to the servic
 what's listed. As with any internet request, the service also sees your IP address.
 
 - **Open-Meteo** (api.open-meteo.com): the map position and height of resorts on your passes, to get their forecasts.
-  The list of resorts can show which passes you hold. Your own location is never sent.
+  The list of resorts can show which passes you hold. Your own location is never sent. With powder alerts on, this
+  also happens once a day in the background, for resorts on your passes within your alert distance.
 - **US National Weather Service** (api.weather.gov): the map position of a US resort when you open its page, to check
   for storm alerts.
 - **Google** (www.google.com), in test builds only: a resort's website address, to fetch its logo. The version on
